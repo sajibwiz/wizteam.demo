@@ -1,0 +1,38 @@
+.box{
+    background-size: cover ;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+
+.box1{
+    background-image: url('assets/img/1.jpg')
+}
+
+.box2{
+    background-image: url('assets/img/2.jpg');
+    background-attachment: fixed;
+}
+.box3{
+    background-image: url('assets/img/3.jpg')
+}
+
+
+.content {
+    margin-top: 50px;
+}
+nav {
+    background: #000;
+  /*! color: #fff; */
+}
+nav a {
+    color: #fff;
+}
+
+nav .active{
+    color: red
+}
+a img {
+    width: 250px;
+    height: 200px;
+}
